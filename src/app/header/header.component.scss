@@ -1,0 +1,37 @@
+.brand-style {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-right: 1.75rem;
+}
+.category-picker{
+    border: 0px;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    padding: 5px 15px;    
+    font-size: smaller;
+}
+.search-field {
+    border: 0px;
+    padding: 5px 2px;
+    font-size: smaller;
+}
+.search-btn {
+    border: 0px;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 25px;
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.navigation-position {
+    margin-right: 18.625rem;
+}
+
+:target {
+    color: #dc3545;
+    text-decoration: underline;
+}

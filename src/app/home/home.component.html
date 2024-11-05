@@ -1,0 +1,10 @@
+<section class="row d-flex justify-content-center mx-0 mb-5">
+    <div class="col-md-7 mt-5">
+        <h4 class="fw-bolder text-dark">NEW PRODUCTS</h4>
+    </div>
+    <div class="col-md-7 d-flex justify-content-around mt-2 mb-4">
+        @for (product of products; track $index) {
+        <app-card class="mx-2" [item]="product"></app-card>
+        }
+    </div>
+</section>
