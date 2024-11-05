@@ -1,4 +1,8 @@
 <div class="card" [class.selected]="isSelected" (click)="showBorder()" style="width: 15rem;">
+    <div class="col-12 d-flex justify-content-end">
+        <span class="red-border-label mt-3 me-2">-30%</span>
+        <span class="red-label mt-3 me-2">NEW</span>
+    </div>
     <img [src]="item.image" class="card-img-top p-4" [alt]="item.title" style="height: 16rem;">
     <div class="card-body">
         <p class="card-text text-center text-secondary text-uppercase" style="font-size: small;">
